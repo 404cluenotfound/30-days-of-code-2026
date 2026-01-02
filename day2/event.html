@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeUtsava10.0</title>
+</head>
+<body>
+    <h1>CodeUtsava10.0 - NIT Raipur</h1>
+    
+    <table border="5">
+        <caption>Event Schedule</caption>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Activity</th>
+                <th>Venue</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>9:00 AM</td>
+                <td>registration & entry of participants</td>
+                <td>CCC</td>
+            </tr>
+            <tr>
+                <td>10:00 AM</td>
+                <td>inauguration & opening ceremony</td>
+                <td>Hera Hall</td>
+            </tr>
+            <tr>
+                <td>11:00 AM - Next Day 3:00 PM</td>
+                <td>Main Hackathon</td>
+                <td>Computer Lab</td>
+            </tr>
+            <tr>
+                <td>3:00 PM</td>
+                <td>project demos & judging</td>
+                <td>Computer Lab</td>
+            </tr>
+            <tr>
+                <td>4:00 PM</td>
+                <td>prize distribution & closing ceremony</td>
+                <td>Hera Hall</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <fieldset>
+    <legend>CodeUtsava10.0 Registration Form</legend>
+    <br>
+    <div>
+        <label for="name">Team Leader Name:</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+    <div>
+        <label for="email">Leader Email:</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+    <div>
+        <label for="institute">Institute Name:</label>
+        <input type="text" id="institute" name="institute" required>
+    </div>
+    <div>
+        <label for="contact">Contact Number:</label>
+        <input type="tel" id="contact" name="contact" required>
+    </div>
+    <div>
+        <label for="arrival-date">Arrival Date:</label>
+        <input type="date" id="arrival-date" name="arrival-date" required>
+    </div>
+    <br>
+    <fieldset>
+    <legend>Participation Type</legend>
+    <div>
+    <input type="radio" id="duo" name="participation-type" value="duo" required>
+    <label for="duo">Duo</label>
+    
+    </div>
+    <div>
+    <input type="radio" id="trio" name="participation-type" value="trio" required>
+    <label for="trio">trio</label>
+    
+    </div>
+    <div>
+    <input type="radio" id="group" name="participation-type" value="group" required>
+    <label for="group">More than three</label>
+    
+    </div>
+    </fieldset>
+    <br>
+    <fieldset>
+    <legend>Skill preference</legend>
+    <div>
+        <input type="checkbox" id="frontend" name="skills" value="frontend">
+        <label for="frontend">Frontend Development</label>
+    </div>
+    <div>
+        <input type="checkbox" id="backend" name="skills" value="backend">
+        <label for="backend">Backend Development</label>
+
+    </div>
+    <div>
+        <input type="checkbox" id="database" name="skills" value="database">
+        <label for="database">Database Management</label>
+    </div>
+    </fieldset>
+    <br>
+    <label for="comments"> Team Member's Name(Including Leader):</label>
+    <br>
+    <textarea id="comments" placeholder="Team member's name" name="comments" rows="4" cols="50"></textarea>
+    <br>
+    <button type="submit">Submit</button>
+    </fieldset>
+</html>
