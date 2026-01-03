@@ -7,3 +7,7 @@
 
 # DAY2
 ![OUTPUT PAGE 1](https://drive.google.com/uc?export=view&id=1gc1ZYp_O-M2VTtX6RxhbHtc_NT2JqT4I)
+
+# DAY3
+![OUTPUT PAGE 1](https://drive.google.com/uc?export=view&id=1yT4zMBma3rA5I8PV4IBtzIwGQ0BTzaSB)
+![OUTPUT PAGE 1](https://drive.google.com/uc?export=view&id=1cxniapsyQSh3fH2E2EZpjAWyi-3nHdVm)
